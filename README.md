@@ -1,7 +1,5 @@
-# Fraud-detection-
-Fraud detection using machine learning
-
-Business Problem
+# Fraud-detection-using-machine-learning
+## Business Problem
 
 Identification and forecasting of fraudulent instances in banking transactions commonly referred as Banking Fraud. 
 
