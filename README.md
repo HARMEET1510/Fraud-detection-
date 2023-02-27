@@ -10,7 +10,13 @@ Financial fraud is any kind of deceptive tactics which is used for gaining finan
 ### Why Fraud detection ?
 - “Banks globally are seeing an increasing trend in scams.” [1]
 								      -KPMG
+### Challenges
 
+Imbalanced Dataset Virtually, most financial transaction datasets comprise millions of transactions, and all of them share a common issue, namely imbalanced datasets. On other hand, the number of fraudulent financial transactions is far fewer than non-fraudulent ones. This issue is generally caused as a result of the fact that the rate of actual fraud transactions out of all transactions is nominal. The problem of imbalanced data distribution generally affects the efficiency of machine learning models. Therefore, training models for detecting fraudulent activity that is very minimal requires extra consideration.
+
+### Proposed Solution
+
+To address the issue of imbalanced data, some studies have applied oversampling approaches. The others attempt to introduce approaches that may effectively work with extremely imbalanced data. Some have utilized the oversampling method for future work and some avoided oversampling as it may lead to choice-based sample biases. Moreover, the only applied oversampling method was the SMOTE (Synthetic Minority Oversampling Technique). Because of this, it could be deduced that future studies could consider employing other oversampling techniques, as well as under-sampling techniques.
 
 
 
